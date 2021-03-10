@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.3.49/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.0","target":"arcade","targetVersion":"1.3.49"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.3.49/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.1","target":"arcade","targetVersion":"1.3.49","repo":"johnotele/theres-trafic"}
 // total=1660501 new=8.09% cached=87.01% other=4.91%
 (function (ectx) {
 'use strict';
@@ -478,7 +478,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P21359(s) {
+function _main___P21434(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1121,13 +1121,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P21359.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-sprite-data/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P21359.continuations = [  ]
+_main___P21434.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-sprite-data/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P21434.continuations = [  ]
 
-function _main___P21359_mk(s) {
+function _main___P21434_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P21359, depth: s.depth + 1,
+        parent: s, fn: _main___P21434, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -2524,23 +2524,23 @@ switch (step) {
   case 0:
 
     s.value___6339 = undefined;
-    s.unnamed144___U1 = undefined;
-    s.unnamed145___U2 = undefined;
+    s.unnamed180___U1 = undefined;
+    s.unnamed181___U2 = undefined;
     s.value___6339 = (undefined);
     s.tmp_0 = sprites_allOfKind__P1989_mk(s);
     s.tmp_0.arg0 = globals.MOVINGCAR___3727;
     s.callLocIdx = 170; s.pc = 11; return s.tmp_0;
   case 11:
     r0 = s.retval;
-    s.unnamed144___U1 = (r0);
-    s.unnamed145___U2 = (0);
+    s.unnamed180___U1 = (r0);
+    s.unnamed181___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed145___U2;
-    r0 = pxsim_Array__length(s.unnamed144___U1);
+    s.tmp_0 = r0 = s.unnamed181___U2;
+    r0 = pxsim_Array__length(s.unnamed180___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 10; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed144___U1, s.unnamed145___U2);
+    r0 = pxsim_Array__getAt(s.unnamed180___U1, s.unnamed181___U2);
     s.value___6339 = (r0);
     s.tmp_3 = Sprite_tileKindAt__P2104_mk(s);
     s.tmp_3.arg0 = s.value___6339;
@@ -2635,11 +2635,11 @@ switch (step) {
     r0 = s.retval;
   case 8:
   case 9:
-    r0 = (s.unnamed145___U2 + 1);
-    s.unnamed145___U2 = (r0);
+    r0 = (s.unnamed181___U2 + 1);
+    s.unnamed181___U2 = (r0);
     { step = 1; continue; }
   case 10:
-    s.unnamed144___U1 = (undefined);
+    s.unnamed180___U1 = (undefined);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
@@ -2669,8 +2669,8 @@ function inline__P6337_mk(s) {
   tmp_15: undefined,
   tmp_16: undefined,
   value___6339: undefined,
-  unnamed144___U1: undefined,
-  unnamed145___U2: undefined,
+  unnamed180___U1: undefined,
+  unnamed181___U2: undefined,
 } }
 
 
@@ -2688,23 +2688,23 @@ switch (step) {
   case 0:
 
     s.value___6377 = undefined;
-    s.unnamed146___U1 = undefined;
-    s.unnamed147___U2 = undefined;
+    s.unnamed182___U1 = undefined;
+    s.unnamed183___U2 = undefined;
     s.value___6377 = (undefined);
     s.tmp_0 = sprites_allOfKind__P1989_mk(s);
     s.tmp_0.arg0 = globals.CAR___3726;
     s.callLocIdx = 182; s.pc = 15; return s.tmp_0;
   case 15:
     r0 = s.retval;
-    s.unnamed146___U1 = (r0);
-    s.unnamed147___U2 = (0);
+    s.unnamed182___U1 = (r0);
+    s.unnamed183___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed147___U2;
-    r0 = pxsim_Array__length(s.unnamed146___U1);
+    s.tmp_0 = r0 = s.unnamed183___U2;
+    r0 = pxsim_Array__length(s.unnamed182___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 14; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed146___U1, s.unnamed147___U2);
+    r0 = pxsim_Array__getAt(s.unnamed182___U1, s.unnamed183___U2);
     s.value___6377 = (r0);
     s.tmp_3 = sprites_readDataBoolean__P2959_mk(s);
     s.tmp_3.arg0 = s.value___6377;
@@ -2841,11 +2841,11 @@ switch (step) {
   case 11:
   case 12:
   case 13:
-    r0 = (s.unnamed147___U2 + 1);
-    s.unnamed147___U2 = (r0);
+    r0 = (s.unnamed183___U2 + 1);
+    s.unnamed183___U2 = (r0);
     { step = 1; continue; }
   case 14:
-    s.unnamed146___U1 = (undefined);
+    s.unnamed182___U1 = (undefined);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
@@ -2869,8 +2869,8 @@ function inline__P6375_mk(s) {
   tmp_9: undefined,
   tmp_10: undefined,
   value___6377: undefined,
-  unnamed146___U1: undefined,
-  unnamed147___U2: undefined,
+  unnamed182___U1: undefined,
+  unnamed183___U2: undefined,
 } }
 
 
@@ -31454,8 +31454,8 @@ switch (step) {
   case 0:
 
     s.value___6161 = undefined;
-    s.unnamed142___U1 = undefined;
-    s.unnamed143___U2 = undefined;
+    s.unnamed178___U1 = undefined;
+    s.unnamed179___U2 = undefined;
     s.index___6175 = undefined;
     if (s.lambdaArgs) {
       s.arg0 = (s.lambdaArgs[0]);
@@ -31494,15 +31494,15 @@ switch (step) {
     s.callLocIdx = 102; s.pc = 19; return s.tmp_0;
   case 19:
     r0 = s.retval;
-    s.unnamed142___U1 = (r0);
-    s.unnamed143___U2 = (0);
+    s.unnamed178___U1 = (r0);
+    s.unnamed179___U2 = (0);
   case 1:
-    s.tmp_0 = r0 = s.unnamed143___U2;
-    r0 = pxsim_Array__length(s.unnamed142___U1);
+    s.tmp_0 = r0 = s.unnamed179___U2;
+    r0 = pxsim_Array__length(s.unnamed178___U1);
     s.tmp_1 = r0;
     r0 = (s.tmp_0 < s.tmp_1);
     if (!r0) { step = 14; continue; }
-    r0 = pxsim_Array__getAt(s.unnamed142___U1, s.unnamed143___U2);
+    r0 = pxsim_Array__getAt(s.unnamed178___U1, s.unnamed179___U2);
     s.value___6161 = (r0);
     s.tmp_3 = Sprite_overlapsWith__P2102_mk(s);
     s.tmp_3.arg0 = globals.testSprite___3731;
@@ -31753,11 +31753,11 @@ switch (step) {
   case 11:
   case 12:
   case 13:
-    r0 = (s.unnamed143___U2 + 1);
-    s.unnamed143___U2 = (r0);
+    r0 = (s.unnamed179___U2 + 1);
+    s.unnamed179___U2 = (r0);
     { step = 1; continue; }
   case 14:
-    s.unnamed142___U1 = (undefined);
+    s.unnamed178___U1 = (undefined);
     s.tmp_0 = Sprite_destroy__P2109_mk(s);
     s.tmp_0.arg0 = globals.testSprite___3731;
     s.tmp_0.arg1 = undefined;
@@ -31787,8 +31787,8 @@ function getParkedCar__P3728_mk(s) {
   tmp_8: undefined,
   tmp_9: undefined,
   value___6161: undefined,
-  unnamed142___U1: undefined,
-  unnamed143___U2: undefined,
+  unnamed178___U1: undefined,
+  unnamed179___U2: undefined,
   index___6175: undefined,
   arg0: undefined,
 } }
@@ -56668,5 +56668,5 @@ const effects_SceneAnchor__C4567_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___3738","tile1___3739","tile2___3740","tile3___3741","tile4___3742","tile6___3744","tile7___3745","tile5___3743","CAR___3726","MOVINGCAR___3727","buttonB___3734","buttonA___3735","buttonLeft___3732","buttonRight___3733","theCar___3729","carSpeed___3736","testSprite___3731","currentLocation___3730"])
 
-return _main___P21359
+return _main___P21434
 })
